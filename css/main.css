@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Thunder';
+    src: url(../fonts/thunder-bold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    background-color: #232323;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background: url('../img/bg.png') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+main, section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+}
+
+section.dark {
+    background: #181818;
+}
+
+.title {
+    font-family: 'Thunder', sans-serif;
+    text-transform: uppercase;
+    font-size: clamp(36px, 10vw, 120px);
+    line-height: 0.85;
+}
+
+.title-special {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: clamp(36px, 6vw, 80px);
+    line-height: 0.85;
+}
+
+.subtitle {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: clamp(12px, 3vw, 35px);
+}
+
+.red-text {
+    color: #FF2200;
+}
+
+.gray-text {
+    color: #a6a6a6;
+}
+
+.cta-btn {
+    background-color: #FF0001;
+    color: #fff;
+    padding: 7px 40px;
+    font-size: clamp(18px, 3vw, 35px);
+    font-family: 'Thunder', sans-serif;
+    text-transform: uppercase;
+    border-radius: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 2px;
+}
+
+.cta-btn:hover {
+    background-color: #ff3f21;
+}
+
+.card-dark {
+    background: #050505;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.card-dark .card-title {
+    padding: 12px;
+    font-family: "Poppins";
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.card-title-small {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.card-body {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.check-label {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.check-label img {
+    margin-right: 8px;
+}
+
+.price {
+    font-family: 'Thunder';
+    font-size: clamp(36px, 6vw, 80px);
+}
+
+.dashed {
+    text-decoration:line-through;
+}
+
+footer {
+    background: #000;
+    padding: 45px 0;
+}
+
+.ml-3 {
+    margin-left: 15px;
+}
+
+.text-justify {
+    text-align: justify;
+    line-height: 1.8;
+}
+  
+details summary img.minus {
+    display: none;
+}
+
+details[open] summary img.minus {
+    display: block;
+}
+
+details[open] summary img.plus {
+    display: none;
+}
+
+.card-content {
+    background: #111111;
+    padding: 30px 40px;
+    font-size: 16px;
+}
+
+.card-content p {
+    margin-bottom: 0;
+}
