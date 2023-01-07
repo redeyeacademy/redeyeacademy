@@ -163,7 +163,7 @@ details[open] summary img.plus {
     margin-bottom: 0;
 }
 
-iframe {
+iframe.iframe {
     border-radius: 12px;
     border: 8px solid #ff3f21;
 }
