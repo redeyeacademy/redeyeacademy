@@ -167,3 +167,7 @@ iframe {
     border-radius: 12px;
     border: 8px solid #ff3f21;
 }
+
+details summary::-webkit-details-marker {
+    display:none;
+  }
