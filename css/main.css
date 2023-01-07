@@ -21,11 +21,11 @@ main {
 }
 
 main, section {
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
-    padding-top: 12vh;
-    padding-bottom: 12vh;
+    padding-top: 9vh;
+    padding-bottom: 9vh;
 }
 
 section.dark {
@@ -35,7 +35,7 @@ section.dark {
 .title {
     font-family: 'Thunder', sans-serif;
     text-transform: uppercase;
-    font-size: clamp(36px, 10vw, 120px);
+    font-size: clamp(36px, 8vw, 100px);
     line-height: 0.85;
 }
 
@@ -49,7 +49,7 @@ section.dark {
 .subtitle {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    font-size: clamp(12px, 3vw, 35px);
+    font-size: clamp(12px, 3vw, 30px);
 }
 
 .red-text {
@@ -64,7 +64,7 @@ section.dark {
     background-color: #FF0001;
     color: #fff;
     padding: 7px 40px;
-    font-size: clamp(18px, 3vw, 35px);
+    font-size: clamp(19px, 3vw, 35px);
     font-family: 'Thunder', sans-serif;
     text-transform: uppercase;
     border-radius: 45px;
